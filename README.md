@@ -2,7 +2,52 @@
 
 Bike rental prediction epitomizes the strategic application of cutting-edge predictive analytics and machine learning algorithms to anticipate the demand for bicycle rentals within a specific locale across a defined timeframe. This sophisticated predictive model meticulously factors in a myriad of influencers, enabling rental service providers to impeccably fine-tune their inventory management, pricing structures, and operational tactics.
 
+### Objectives
+
+- Perform exploratory data analysis and visualize the data to understand the environmental and seasonal settings.
+- Predict bike rental counts based on environmental and seasonal settings with the help of a machine learning algorithm.
+
+### Prerequisites
+
+#### Industry Relevance
+This project covers the following key areas:
+- **Exploratory Data Analysis (EDA):** Finds trends, patterns, or checks assumptions by analyzing data with visual tools.
+- **Data Manipulation:** Organizes and changes information to make it more understandable.
+- **Data Visualization:** Represents data with common graphs, plots, or charts.
+- **R Programming:** Used for statistical analysis, graphics representation, and reporting.
+- **Machine Learning:** Enhances software accuracy in predicting outcomes without explicit programming.
+
+### Problem Statement
+
+In bike-sharing systems, from membership to rental and return, the entire process has been automated. The bike rental company aims to understand and predict the daily number of bikes rented based on environmental and seasonal factors.
+
 ## 📊 Key Components and Considerations in Bike Rental Prediction:
+
+#### Dataset Description:
+
+##### Variables:
+
+| Variable    | Description                                               |
+|-------------|-----------------------------------------------------------|
+| instant     | Record index                                              |
+| dteday      | Date                                                      |
+| season      | Season (1: springer, 2: summer, 3: fall, 4: winter)       |
+| yr          | Year (0: 2011, 1: 2012)                                   |
+| mnth        | Month (1 to 12)                                           |
+| holiday     | Weather day is a holiday or not                           |
+| weekday     | Day of the week                                           |
+| workingday  | Working day (1:neither weekend nor holiday, 0:other days) |
+| weathersit  | 1:Clear,few clouds, partly cloudy                         |
+|             | 2:Mist + cloudy,mist + broken clouds, mist + few clouds,mist|
+|             | 3:Light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds |
+|             | 4:Heavy rain + ice pallets                                |
+| temp        | Normalized temperature in celsius; The values are divided into 41(max) |
+| atemp       | Normalized feeling temperature in Celsius; The values are divided into 50(max) |
+| hum         | Normalized humidity; The values are divided into 100(max) |
+| windspeed   | Normalized wind speed; The values are divided into 67(max) |
+| casual      | Count of casual users                                     |
+| registerd   | Count of registered users                                 |
+| cnt         | Count of total rental bikes including both casual and registered |
 
 ### Data Collection:
 
@@ -54,5 +99,41 @@ Bike rental prediction epitomizes the strategic application of cutting-edge pred
 | Interface Design          | Description                                           |
 |---------------------------|-------------------------------------------------------|
 | User-Friendly Experience  | Crafting an intuitive interface to present predictions and insights to rental service providers. |
+
+
+### Tasks has been completed:
+
+#### 1. Exploratory Data Analysis:
+
+- Load the dataset and relevant libraries.
+- Perform data type conversion of the attributes.
+- Conduct missing value analysis.
+
+#### 2. Attributes Distribution and Trends:
+
+- Plot monthly distribution of the total number of bikes rented.
+- Plot yearly distribution of the total number of bikes rented.
+- Plot boxplot for outliers' analysis.
+
+#### 3. Split the Dataset
+
+Split the dataset into train and test datasets.
+
+#### 4. Create a Model
+
+Create a model using the random forest algorithm.
+
+#### 5. Predictions
+
+Predict the performance of the model on the test dataset.
+
+## Project Outcome
+
+This project is designed to:
+- Understand how to perform exploratory data analysis, plot graphs, and predict using a machine learning algorithm.
+- Analyze the dataset for this project to create a report.
+- Use a machine learning algorithm and predict the bikes rented daily.
+
+
 
 In essence, bike rental prediction serves as a powerful catalyst, empowering businesses to elevate customer experiences, optimize resource utilization, and enhance overall operational efficiency within the dynamic and competitive bike-sharing industry.
