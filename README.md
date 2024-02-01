@@ -2,6 +2,8 @@
 
 Bike rental prediction epitomizes the strategic application of cutting-edge predictive analytics and machine learning algorithms to anticipate the demand for bicycle rentals within a specific locale across a defined timeframe. This sophisticated predictive model meticulously factors in a myriad of influencers, enabling rental service providers to impeccably fine-tune their inventory management, pricing structures, and operational tactics.
 
+![Bike rental prediction project img](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/73391e21-fb83-4ea3-a617-1da408b3646d)
+
 ## 🎯 Objectives
 
 - Perform exploratory data analysis and visualize the data to understand the environmental and seasonal settings.
