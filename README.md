@@ -24,10 +24,10 @@ This project covers the following key areas:
 - **R Programming:** Used for statistical analysis, graphics representation, and reporting.
 - **Machine Learning:** Enhances software accuracy in predicting outcomes without explicit programming.
 
-###Table Of Contents:
+### Table Of Contents:
 
 
-| Table of Contents                               |
+| **Table of Contents**                             |
 |--------------------------------------------------|
 | **1. Section 1:**                                |
 |    - 1. Loading Relevant Libraries               |
@@ -217,9 +217,9 @@ This project covers the following key areas:
 
 | Metrics                   | Description                                           |
 |---------------------------|-------------------------------------------------------|
-| Mean Absolute Error (MAE) | Rigorous assessment of the model's performance to gauge the accuracy of predictions. |
-| Root Mean Squared Error    |                                                   |
-| R-squared                 |                                                   |
+| Mean Absolute Error (MAE) | A robust measure of the average magnitude of errors between predicted and observed values, providing insight into prediction accuracy. |
+| Root Mean Squared Error (RMSE) | A comprehensive evaluation metric that measures the average magnitude of the model's errors, giving higher weight to large errors. It provides a good understanding of the overall model performance. |
+| R-squared                 | A statistical measure that indicates the proportion of the variance in the dependent variable (bike rental count) that is predictable from the independent variables (features). It ranges from 0 to 1, with 1 indicating perfect prediction. |
 
 ### Deployment:
 
