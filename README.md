@@ -27,87 +27,87 @@ This project covers the following key areas:
 ### Table Of Contents:
 
 
-| **Table of Contents**                             |
-|--------------------------------------------------|
-| **1. Section 1:**                                |
-|    - 1. Loading Relevant Libraries               |
-|    - 2. Addition of File to R Program/R Studio   |
-|    - 3. Exploration of Dataset                   |
-| **2. Section 2: EDA: Exploratory Data Analysis** |
-|    - 1. Renaming and Type Conversion of Attributes|
-|    - 2. Typecasting Datetime and Numerical Attributes to Category|
-|    - 3. Missing Value Analysis                    |
-|    - 4. Visualization of Numerical Variables through Pairplot|
-|    - 5. Exploring Bike Rental Distribution Using Histogram|
-|    - 6. Histogram of Target Variable - "Bike Rental Count"|
-|    - 7. Log Transformation of Bike Rentals and Visualization Using Histogram and Density Plot|
-|    - 8. Correlogram of All Variables Using ggpairs|
-|    - 9. Analysis of Dataset Focusing on Bike Rental Count Using 'explore' Package|
-|    - 10. Monthly Distribution of Bike Rental Counts|
-|        - a. Season-wise Monthly Distribution of Bike Rental Counts|
-|        - b. Weekday-wise Monthly Distribution of Bike Rental Counts|
-|    - 11. Bike Rentals Counts by Seasonly Distribution|
-|        - a. Boxplot to Visualize Bike Rentals by Season|
-|        - b. Violin Plot for Yearly Distribution of Counts|
-|    - 12. Exploring Bike Rentals During Holidays|
-|        - a. Boxplot for Rentals by Holiday Status|
-|        - b. Histogram for Distribution of Rentals on Non-Holidays and On Holidays|
-|        - c. Column Plot for Holiday-wise Distribution of Counts|
-|    - 13. Exploration of Working Day-wise Distribution of Counts|
-|        - a. Column Plot for Working Day-wise Distribution of Counts|
-|    - 14. Impact of Weather Conditions on Bike Rentals|
-|        - a. Column Plot for Weather Condition-wise Distribution of Counts|
-|    - 15. Temperature Analysis|
-|        - a. Combined Temperature Analysis for Temperature and Apparent Temperature|
-|        - b. Scatter Plot for Bike Rentals Against Temperature and Apparent Temperature in Celsius|
-| **3. Section 3: Outlier Analysis**               |
-|    - 1. Boxplot for Bike Rental Count with Outliers|
-|    - 2. Boxplots for Outliers in Temperature, Feel-like Temperature, Humidity, and Windspeed|
-|    - 3. Outlier Replacement and Imputation       |
-|        - a. Replacing and Imputing Outliers in Humidity and Windspeed|
-|        - b. Impute Missing Values Using Mean Imputation Method|
-|    - 4. Combining the Imputed Dataset and Original Dataset|
-|    - 5. Exploring Numerical Column for Combined Dataset|
-|    - 6. Correlation Analysis of Combined Dataset  |
-| **4. Section 4: Training and Testing Dataset**   |
-|    - 1. Splitting Dataset for Training and Testing|
-|    - 2. Creating Subsets for Training and Testing Respectively|
-| **5. Section 5: Feature Engineering**            |
-|    - 1. Encoding Categorical Features for Training Dataset|
-|    - 2. Encoding Categorical Features (Test Dataset)|
-| **6. Section 6: Linear Regression Model**       |
-|    - 1. Modelling the Training Dataset for LRM  |
-|    - 2. Cross Validation Prediction for LRM      |
-|    - 3. Cross Validation Prediction Plot for LRM|
-|    - 4. Model Performance on Test Dataset for LRM|
-|    - 5. Prediction Analysis of Models on Test Dataset for LRM|
-|    - 6. Model Evaluation Metrics for LRM        |
-|    - 7. Residual Analysis for LRM               |
-| **7. Section 7: Decision Tree Regressor**       |
-|    - 1. Modelling the Training Dataset for DTR  |
-|    - 2. Cross Validation Prediction for DTR     |
-|    - 3. Cross Validation Prediction Plot for DTR|
-|    - 4. Model Performance on Test Dataset for DTR|
-|    - 5. Prediction Analysis of Models on Test Dataset for DTR|
-|    - 6. Model Evaluation Metrics for DTR        |
-|    - 7. Residual Analysis and Plot for DTR      |
-| **10. Section 10: Random Forest Model**         |
-|    - 1. Modelling the Training Dataset for RFM  |
-|    - 2. Cross Validation Prediction for RFM     |
-|    - 3. Cross Validation Prediction Plot for RFM|
-|    - 4. Model Performance on Test Dataset for RFM|
-|    - 5. Prediction Analysis of Models on Test Dataset for RFM|
-|    - 6. Model Evaluation Metrics for RFM        |
-|    - 7. Residual Analysis and Plot for RFM      |
+| **Table of Contents**                              |
+|---------------------------------------------------|
+| **1. Section 1:**                                 |
+|   | - 1. Loading Relevant Libraries                |
+|   |- 2. Addition of File to R Program/R Studio    |
+|   |- 3. Exploration of Dataset                    |
+| **2. Section 2: EDA: Exploratory Data Analysis**  |
+|    |- 1. Renaming and Type Conversion of Attributes|
+|    |- 2. Typecasting Datetime and Numerical Attributes to Category|
+|    |- 3. Missing Value Analysis                   |
+|    |- 4. Visualization of Numerical Variables through Pairplot|
+|    |- 5. Exploring Bike Rental Distribution Using Histogram|
+|    |- 6. Histogram of Target Variable - "Bike Rental Count"|
+|    |- 7. Log Transformation of Bike Rentals and Visualization Using Histogram and Density Plot|
+|    |- 8. Correlogram of All Variables Using ggpairs|
+|    |- 9. Analysis of Dataset Focusing on Bike Rental Count Using 'explore' Package|
+|    |- 10. Monthly Distribution of Bike Rental Counts|
+|    |   | - a. Season-wise Monthly Distribution of Bike Rental Counts|
+|    |   |- b. Weekday-wise Monthly Distribution of Bike Rental Counts|
+|    |- 11. Bike Rentals Counts by Seasonly Distribution|
+|    |   |- a. Boxplot to Visualize Bike Rentals by Season|
+|    |   |- b. Violin Plot for Yearly Distribution of Counts|
+|    |- 12. Exploring Bike Rentals During Holidays   |
+|    |   |- a. Boxplot for Rentals by Holiday Status |
+|    |   |- b. Histogram for Distribution of Rentals on Non-Holidays and On Holidays|
+|    |   |- c. Column Plot for Holiday-wise Distribution of Counts|
+|    |- 13. Exploration of Working Day-wise Distribution of Counts|
+|        |- a. Column Plot for Working Day-wise Distribution of Counts|
+|    |- 14. Impact of Weather Conditions on Bike Rentals|
+|        |- a. Column Plot for Weather Condition-wise Distribution of Counts|
+|    |- 15. Temperature Analysis|
+|        |- a. Combined Temperature Analysis for Temperature and Apparent Temperature|
+|        |- b. Scatter Plot for Bike Rentals Against Temperature and Apparent Temperature in Celsius|
+| **3. Section 3: Outlier Analysis**                |
+|    |- 1. Boxplot for Bike Rental Count with Outliers|
+|    |- 2. Boxplots for Outliers in Temperature, Feel-like Temperature, Humidity, and Windspeed|
+|    |- 3. Outlier Replacement and Imputation       |
+|    |    |- a. Replacing and Imputing Outliers in Humidity and Windspeed|
+|        |- b. Impute Missing Values Using Mean Imputation Method|
+|    |- 4. Combining the Imputed Dataset and Original Dataset|
+|    |- 5. Exploring Numerical Column for Combined Dataset|
+|    |- 6. Correlation Analysis of Combined Dataset  |
+| **4. Section 4: Training and Testing Dataset**    |
+|    |- 1. Splitting Dataset for Training and Testing|
+|    |- 2. Creating Subsets for Training and Testing Respectively|
+| **5. Section 5: Feature Engineering**             |
+|    |- 1. Encoding Categorical Features for Training Dataset|
+|    |- 2. Encoding Categorical Features (Test Dataset)|
+| **6. Section 6: Linear Regression Model**        |
+|    |- 1. Modelling the Training Dataset for LRM  |
+|    |- 2. Cross Validation Prediction for LRM     |
+|    |- 3. Cross Validation Prediction Plot for LRM|
+|    |- 4. Model Performance on Test Dataset for LRM|
+|    |- 5. Prediction Analysis of Models on Test Dataset for LRM|
+|    |- 6. Model Evaluation Metrics for LRM        |
+|    |- 7. Residual Analysis for LRM               |
+| **7. Section 7: Decision Tree Regressor**        |
+|    |- 1. Modelling the Training Dataset for DTR  |
+|    |- 2. Cross Validation Prediction for DTR     |
+|    |- 3. Cross Validation Prediction Plot for DTR|
+|    |- 4. Model Performance on Test Dataset for DTR|
+|    |- 5. Prediction Analysis of Models on Test Dataset for DTR|
+|    |- 6. Model Evaluation Metrics for DTR        |
+|    |- 7. Residual Analysis and Plot for DTR      |
+| **10. Section 10: Random Forest Model**          |
+|    |- 1. Modelling the Training Dataset for RFM  |
+|    |- 2. Cross Validation Prediction for RFM     |
+|    |- 3. Cross Validation Prediction Plot for RFM|
+|    |- 4. Model Performance on Test Dataset for RFM|
+|    |- 5. Prediction Analysis of Models on Test Dataset for RFM|
+|    |- 6. Model Evaluation Metrics for RFM        |
+|    |- 7. Residual Analysis and Plot for RFM      |
 | **11. Section 11: Selecting Best Model in All Three for Further Prediction**|
-|    - 1. Calculate RMSE and MAE for Each Model   |
-|    - 2. Analyzing Accuracy for Each Model       |
-|    - 3. Selecting Best Model                    |
+|    |- 1. Calculate RMSE and MAE for Each Model   |
+|    |- 2. Analyzing Accuracy for Each Model       |
+|    |- 3. Selecting Best Model                    |
 | **12. Section 12: Selecting Final Model as Random Forest Regressor for Prediction of Bike Rental Count**|
-|    - 1. Combine Observed and Predicted Values   |
-|    - 2. Write Predictions to a CSV File        |
-|    - 3. Display the Predictions                 |
-| **13. Section 13: Conclusion**                  |
+|    |- 1. Combine Observed and Predicted Values   |
+|    |- 2. Write Predictions to a CSV File         |
+|    |- 3. Display the Predictions                  |
+| **13. Section 13: Conclusion**                   |
 
 
 ### Requirement to Run R Program:
