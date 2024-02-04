@@ -24,17 +24,21 @@ This project covers the following key areas:
 - **R Programming:** Used for statistical analysis, graphics representation, and reporting.
 - **Machine Learning:** Enhances software accuracy in predicting outcomes without explicit programming.
 
-### Table Of Contents:
-
 
 # Table of Contents
 
-## Section 1
+<details>
+<summary><strong>Section 1</strong></summary>
+
 - [Loading Relevant Libraries](#1-loading-relevant-libraries)
 - [Addition of File to R Program/R Studio](#2-addition-of-file-to-r-programr-studio)
 - [Exploration of Dataset](#3-exploration-of-dataset)
 
-## Section 2: EDA - Exploratory Data Analysis
+</details>
+
+<details>
+<summary><strong>Section 2: EDA - Exploratory Data Analysis</strong></summary>
+
 1. [Renaming and Type Conversion of Attributes](#1-renaming-and-type-conversion-of-attributes)
 2. [Typecasting Datetime and Numerical Attributes to Category](#2-typecasting-datetime-and-numerical-attributes-to-category)
 3. [Missing Value Analysis](#3-missing-value-analysis)
@@ -62,25 +66,41 @@ This project covers the following key areas:
     - [Combined Temperature Analysis for Temperature and Apparent Temperature](#a-combined-temperature-analysis-for-temperature-and-apparent-temperature)
     - [Scatter Plot for Bike Rentals Against Temperature and Apparent Temperature in Celsius](#b-scatter-plot-for-bike-rentals-against-temperature-and-apparent-temperature-in-celsius)
 
-## Section 3: Outlier Analysis
+</details>
+
+<details>
+<summary><strong>Section 3: Outlier Analysis</strong></summary>
+
 1. [Boxplot for Bike Rental Count with Outliers](#1-boxplot-for-bike-rental-count-with-outliers)
 2. [Boxplots for Outliers in Temperature, Feel-like Temperature, Humidity, and Windspeed](#2-boxplots-for-outliers-in-temperature-feel-like-temperature-humidity-and-windspeed)
 3. [Outlier Replacement and Imputation](#3-outlier-replacement-and-imputation)
     - [Replacing and Imputing Outliers in Humidity and Windspeed](#a-replacing-and-imputing-outliers-in-humidity-and-windspeed)
     - [Impute Missing Values Using Mean Imputation Method](#b-impute-missing-values-using-mean-imputation-method)
 4. [Combining the Imputed Dataset and Original Dataset](#4-combining-the-imputed-dataset-and-original-dataset)
-5. [Explorating Numerical Column for Combined Dataset](#5-explorating-numerical-column-for-combined-dataset)
+5. [Exploring Numerical Column for Combined Dataset](#5-exploring-numerical-column-for-combined-dataset)
 6. [Correlation Analysis of Combined Dataset](#6-correlation-analysis-of-combined-dataset)
 
-## Section 4: Training and Testing Dataset
+</details>
+
+<details>
+<summary><strong>Section 4: Training and Testing Dataset</strong></summary>
+
 1. [Splitting Dataset for Training and Testing](#1-splitting-dataset-for-training-and-testing)
 2. [Creating Subsets for Training and Testing Respectively](#2-creating-subsets-for-training-and-testing-respectively)
 
-## Section 5: Feature Engineering
+</details>
+
+<details>
+<summary><strong>Section 5: Feature Engineering</strong></summary>
+
 1. [Encoding Categorical Features for Training Dataset](#1-encoding-categorical-features-for-training-dataset)
 2. [Encoding Categorical Features (Test Dataset)](#2-encoding-categorical-features-test-dataset)
 
-## Section 6: Linear Regression Model
+</details>
+
+<details>
+<summary><strong>Section 6: Linear Regression Model</strong></summary>
+
 1. [Modelling the Training Dataset for LRM](#1-modelling-the-training-dataset-for-lrm)
 2. [Cross Validation Prediction for LRM](#2-cross-validation-prediction-for-lrm)
 3. [Cross Validation Prediction Plot for LRM](#3-cross-validation-prediction-plot-for-lrm)
@@ -89,7 +109,11 @@ This project covers the following key areas:
 6. [Model Evaluation Metrics for LRM](#6-model-evaluation-metrics-for-lrm)
 7. [Residual Analysis for LRM](#7-residual-analysis-for-lrm)
 
-## Section 7: Decision Tree Regressor
+</details>
+
+<details>
+<summary><strong>Section 7: Decision Tree Regressor</strong></summary>
+
 1. [Modelling the Training Dataset for DTR](#1-modelling-the-training-dataset-for-dtr)
 2. [Cross Validation Prediction for DTR](#2-cross-validation-prediction-for-dtr)
 3. [Cross Validation Prediction Plot for DTR](#3-cross-validation-prediction-plot-for-dtr)
@@ -98,7 +122,11 @@ This project covers the following key areas:
 6. [Model Evaluation Metrics for DTR](#6-model-evaluation-metrics-for-dtr)
 7. [Residual Analysis and Plot for DTR](#7-residual-analysis-and-plot-for-dtr)
 
-## Section 10: Random Forest Model
+</details>
+
+<details>
+<summary><strong>Section 10: Random Forest Model</strong></summary>
+
 1. [Modelling the Training Dataset for RFM](#1-modelling-the-training-dataset-for-rfm)
 2. [Cross Validation Prediction for RFM](#2-cross-validation-prediction-for-rfm)
 3. [Cross Validation Prediction Plot for RFM](#3-cross-validation-prediction-plot-for-rfm)
@@ -107,17 +135,30 @@ This project covers the following key areas:
 6. [Model Evaluation Metrics for RFM](#6-model-evaluation-metrics-for-rfm)
 7. [Residual Analysis and Plot for RFM](#7-residual-analysis-and-plot-for-rfm)
 
-## Section 11: Selecting Best Model in All Three for Further Prediction
+</details>
+
+<details>
+<summary><strong>Section 11: Selecting Best Model in All Three for Further Prediction</strong></summary>
+
 1. [Calculate RMSE and MAE for Each Model](#1-calculate-rmse-and-mae-for-each-model)
 2. [Analyzing Accuracy for Each Model](#2-analyzing-accuracy-for-each-model)
 3. [Selecting Best Model](#3-selecting-best-model)
 
-## Section 12: Selecting Final Model as Random Forest Regressor for Prediction of Bike Rental Count
+</details>
+
+<details>
+<summary><strong>Section 12: Selecting Final Model as Random Forest Regressor for Prediction of Bike Rental Count</strong></summary>
+
 1. [Combine Observed and Predicted Values](#1-combine-observed-and-predicted-values)
 2. [Write Predictions to a CSV File](#2-write-predictions-to-a-csv-file)
 3. [Display the Predictions](#3-display-the-predictions)
 
-## Section 13: Conclusion
+</details>
+
+<details>
+<summary><strong>Section 13: Conclusion</strong></summary>
+</details>
+
 
 ### Requirement to Run R Program:
 
