@@ -370,19 +370,19 @@ This project covers the following key areas:
 - Plot yearly distribution of the total number of bikes rented.
 - Plot boxplot for outliers' analysis.
 
-### 3. Split the Dataset
+### 3. Split the Dataset:
 
 Split the dataset into train and test datasets.
 
-### 4. Create a Model
+### 4. Create a Model:
 
 Create a model using the random forest algorithm.
 
-### 5. Predictions
+### 5. Predictions:
 
 Predict the performance of the model on the test dataset.
 
-## 🏆 Project Outcome
+## 🏆 Project Outcome:
 
 This project is designed to:
 - Understand how to perform exploratory data analysis, plot graphs, and predict using a machine learning algorithm.
@@ -390,6 +390,88 @@ This project is designed to:
 - Use a machine learning algorithm and predict the bikes rented daily.
 
 In essence, bike rental prediction serves as a powerful catalyst, empowering businesses to elevate customer experiences, optimize resource utilization, and enhance overall operational efficiency within the dynamic and competitive bike-sharing industry.
+
+Certainly! Here it is organized under a heading:
+
+## About Technology Stack Used:
+
+<details>
+<summary><strong>Programming Language:</strong></summary>
+
+R: R is a programming language and environment designed for statistical computing and graphics. It is widely used in data analysis, data visualization, and statistical modeling.
+
+</details>
+
+<details>
+<summary><strong>Libraries and Packages:</strong></summary>
+
+tidyverse: A collection of R packages, including ggplot2, dplyr, tidyr, readr, and others, that work seamlessly together for data manipulation and visualization.
+
+</details>
+
+<details>
+<summary><strong>Version Control:</strong></summary>
+
+Git: Git is a distributed version control system used to track changes in the source code during software development. It allows collaborative development and version management.
+
+</details>
+
+<details>
+<summary><strong>Repository Hosting:</strong></summary>
+
+GitHub: GitHub is a web-based platform that provides hosting for software development version control using Git. The project code and resources are hosted on GitHub.
+
+</details>
+
+<details>
+<summary><strong>Data Analysis and Visualization:</strong></summary>
+
+RStudio: RStudio is an integrated development environment (IDE) for R, providing tools for coding, debugging, and visualization. It facilitates the interactive exploration of data and creation of visualizations.
+
+</details>
+
+<details>
+<summary><strong>Machine Learning Algorithm:</strong></summary>
+
+Random Forest: Random Forest is an ensemble learning method used for both classification and regression tasks. In this project, it is employed as a regression model for predicting bike rental counts.
+
+</details>
+
+<details>
+<summary><strong>Text Editor (Optional):</strong></summary>
+
+VSCode, Atom, or Other Text Editors: A text editor can be used for editing and viewing the R script files. While RStudio is the preferred IDE, some users may choose alternative text editors.
+
+</details>
+
+<details>
+<summary><strong>Documentation:</strong></summary>
+
+Markdown: Markdown is used for creating formatted text, including headings, lists, and links. The README file is written in Markdown to provide documentation.
+
+</details>
+
+<details>
+<summary><strong>Collaboration and Communication:</strong></summary>
+
+Communication Platforms: Collaboration and communication may occur via various platforms such as email, messaging, or project management tools, enabling effective teamwork.
+
+</details>
+
+<details>
+<summary><strong>Project Structure and Organization:</strong></summary>
+
+The project is organized into sections, and each section is implemented in a modular fashion within R scripts. A well-structured project organization ensures clarity and maintainability.
+
+</details>
+
+<details>
+<summary><strong>Dependency Management (Optional):</strong></summary>
+
+R Package Management: Dependency management can be handled using R package management tools to ensure that the required libraries and packages are installed.
+
+</details>
+
 
 
 ## Installation
