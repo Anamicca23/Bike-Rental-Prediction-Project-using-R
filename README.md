@@ -34,7 +34,7 @@ This project covers the following key areas:
 # Table of Contents
 
 <details>
-<summary><strong>Section 1</strong></summary>
+<summary><strong>Section 1: Loading Libraries and datasets</strong></summary>
 
 - [Loading Relevant Libraries](#1-loading-relevant-libraries)
 - [Addition of File to R Program/R Studio](#2-addition-of-file-to-r-programr-studio)
@@ -163,6 +163,9 @@ This project covers the following key areas:
 
 <details>
 <summary><strong>Section 13: Conclusion</strong></summary>
+    
+    1. Conclusion
+    
 </details>
 
 
