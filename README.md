@@ -27,88 +27,97 @@ This project covers the following key areas:
 ### Table Of Contents:
 
 
-| **Table of Contents**                              |
-|---------------------------------------------------|
-| **1. Section 1:**                                 |
-|   | - 1. Loading Relevant Libraries                |
-|   |- 2. Addition of File to R Program/R Studio    |
-|   |- 3. Exploration of Dataset                    |
-| **2. Section 2: EDA: Exploratory Data Analysis**  |
-|    |- 1. Renaming and Type Conversion of Attributes|
-|    |- 2. Typecasting Datetime and Numerical Attributes to Category|
-|    |- 3. Missing Value Analysis                   |
-|    |- 4. Visualization of Numerical Variables through Pairplot|
-|    |- 5. Exploring Bike Rental Distribution Using Histogram|
-|    |- 6. Histogram of Target Variable - "Bike Rental Count"|
-|    |- 7. Log Transformation of Bike Rentals and Visualization Using Histogram and Density Plot|
-|    |- 8. Correlogram of All Variables Using ggpairs|
-|    |- 9. Analysis of Dataset Focusing on Bike Rental Count Using 'explore' Package|
-|    |- 10. Monthly Distribution of Bike Rental Counts|
-|    |   | - a. Season-wise Monthly Distribution of Bike Rental Counts|
-|    |   |- b. Weekday-wise Monthly Distribution of Bike Rental Counts|
-|    |- 11. Bike Rentals Counts by Seasonly Distribution|
-|    |   |- a. Boxplot to Visualize Bike Rentals by Season|
-|    |   |- b. Violin Plot for Yearly Distribution of Counts|
-|    |- 12. Exploring Bike Rentals During Holidays   |
-|    |   |- a. Boxplot for Rentals by Holiday Status |
-|    |   |- b. Histogram for Distribution of Rentals on Non-Holidays and On Holidays|
-|    |   |- c. Column Plot for Holiday-wise Distribution of Counts|
-|    |- 13. Exploration of Working Day-wise Distribution of Counts|
-|        |- a. Column Plot for Working Day-wise Distribution of Counts|
-|    |- 14. Impact of Weather Conditions on Bike Rentals|
-|        |- a. Column Plot for Weather Condition-wise Distribution of Counts|
-|    |- 15. Temperature Analysis|
-|        |- a. Combined Temperature Analysis for Temperature and Apparent Temperature|
-|        |- b. Scatter Plot for Bike Rentals Against Temperature and Apparent Temperature in Celsius|
-| **3. Section 3: Outlier Analysis**                |
-|    |- 1. Boxplot for Bike Rental Count with Outliers|
-|    |- 2. Boxplots for Outliers in Temperature, Feel-like Temperature, Humidity, and Windspeed|
-|    |- 3. Outlier Replacement and Imputation       |
-|    |    |- a. Replacing and Imputing Outliers in Humidity and Windspeed|
-|        |- b. Impute Missing Values Using Mean Imputation Method|
-|    |- 4. Combining the Imputed Dataset and Original Dataset|
-|    |- 5. Exploring Numerical Column for Combined Dataset|
-|    |- 6. Correlation Analysis of Combined Dataset  |
-| **4. Section 4: Training and Testing Dataset**    |
-|    |- 1. Splitting Dataset for Training and Testing|
-|    |- 2. Creating Subsets for Training and Testing Respectively|
-| **5. Section 5: Feature Engineering**             |
-|    |- 1. Encoding Categorical Features for Training Dataset|
-|    |- 2. Encoding Categorical Features (Test Dataset)|
-| **6. Section 6: Linear Regression Model**        |
-|    |- 1. Modelling the Training Dataset for LRM  |
-|    |- 2. Cross Validation Prediction for LRM     |
-|    |- 3. Cross Validation Prediction Plot for LRM|
-|    |- 4. Model Performance on Test Dataset for LRM|
-|    |- 5. Prediction Analysis of Models on Test Dataset for LRM|
-|    |- 6. Model Evaluation Metrics for LRM        |
-|    |- 7. Residual Analysis for LRM               |
-| **7. Section 7: Decision Tree Regressor**        |
-|    |- 1. Modelling the Training Dataset for DTR  |
-|    |- 2. Cross Validation Prediction for DTR     |
-|    |- 3. Cross Validation Prediction Plot for DTR|
-|    |- 4. Model Performance on Test Dataset for DTR|
-|    |- 5. Prediction Analysis of Models on Test Dataset for DTR|
-|    |- 6. Model Evaluation Metrics for DTR        |
-|    |- 7. Residual Analysis and Plot for DTR      |
-| **10. Section 10: Random Forest Model**          |
-|    |- 1. Modelling the Training Dataset for RFM  |
-|    |- 2. Cross Validation Prediction for RFM     |
-|    |- 3. Cross Validation Prediction Plot for RFM|
-|    |- 4. Model Performance on Test Dataset for RFM|
-|    |- 5. Prediction Analysis of Models on Test Dataset for RFM|
-|    |- 6. Model Evaluation Metrics for RFM        |
-|    |- 7. Residual Analysis and Plot for RFM      |
-| **11. Section 11: Selecting Best Model in All Three for Further Prediction**|
-|    |- 1. Calculate RMSE and MAE for Each Model   |
-|    |- 2. Analyzing Accuracy for Each Model       |
-|    |- 3. Selecting Best Model                    |
-| **12. Section 12: Selecting Final Model as Random Forest Regressor for Prediction of Bike Rental Count**|
-|    |- 1. Combine Observed and Predicted Values   |
-|    |- 2. Write Predictions to a CSV File         |
-|    |- 3. Display the Predictions                  |
-| **13. Section 13: Conclusion**                   |
+# Table of Contents
 
+## Section 1
+- [Loading Relevant Libraries](#1-loading-relevant-libraries)
+- [Addition of File to R Program/R Studio](#2-addition-of-file-to-r-programr-studio)
+- [Exploration of Dataset](#3-exploration-of-dataset)
+
+## Section 2: EDA - Exploratory Data Analysis
+1. [Renaming and Type Conversion of Attributes](#1-renaming-and-type-conversion-of-attributes)
+2. [Typecasting Datetime and Numerical Attributes to Category](#2-typecasting-datetime-and-numerical-attributes-to-category)
+3. [Missing Value Analysis](#3-missing-value-analysis)
+4. [Visualization of Numerical Variables through Pairplot](#4-visualization-of-numerical-variables-through-pairplot)
+5. [Exploring Bike Rental Distribution Using Histogram](#5-exploring-bike-rental-distribution-using-histogram)
+6. [Histogram of Target Variable - "Bike Rental Count"](#6-histogram-of-target-variable---bike-rental-count)
+7. [Log Transformation of Bike Rentals and Visualization Using Histogram and Density Plot](#7-log-transformation-of-bike-rentals-and-visualization-using-histogram-and-density-plot)
+8. [Correlogram of All Variables Using ggpairs](#8-correlogram-of-all-variables-using-ggpairs)
+9. [Analysis of Dataset Focusing on Bike Rental Count Using 'explore' Package](#9-analysis-of-dataset-focusing-on-bike-rental-count-using-explore-package)
+10. [Monthly Distribution of Bike Rental Counts](#10-monthly-distribution-of-bike-rental-counts)
+    - [Season-wise Monthly Distribution of Bike Rental Counts](#a-season-wise-monthly-distribution-of-bike-rental-counts)
+    - [Weekday-wise Monthly Distribution of Bike Rental Counts](#b-weekday-wise-monthly-distribution-of-bike-rental-counts)
+11. [Bike Rentals Counts by Seasonly Distribution](#11-bike-rentals-counts-by-seasonly-distribution)
+    - [Boxplot to Visualize Bike Rentals by Season](#a-boxplot-to-visualize-bike-rentals-by-season)
+    - [Violin Plot for Yearly Distribution of Counts](#b-violin-plot-for-yearly-distribution-of-counts)
+12. [Exploring Bike Rentals During Holidays](#12-exploring-bike-rentals-during-holidays)
+    - [Boxplot for Rentals by Holiday Status](#a-boxplot-for-rentals-by-holiday-status)
+    - [Histogram for Distribution of Rentals on Non-Holidays and On Holidays](#b-histogram-for-distribution-of-rentals-on-non-holidays-and-on-holidays)
+    - [Column Plot for Holiday-wise Distribution of Counts](#c-column-plot-for-holiday-wise-distribution-of-counts)
+13. [Exploration of Working Day-wise Distribution of Counts](#13-exploration-of-working-day-wise-distribution-of-counts)
+    - [Column Plot for Working Day-wise Distribution of Counts](#a-column-plot-for-working-day-wise-distribution-of-counts)
+14. [Impact of Weather Conditions on Bike Rentals](#14-impact-of-weather-conditions-on-bike-rentals)
+    - [Column Plot for Weather Condition-wise Distribution of Counts](#a-column-plot-for-weather-condition-wise-distribution-of-counts)
+15. [Temperature Analysis](#15-temperature-analysis)
+    - [Combined Temperature Analysis for Temperature and Apparent Temperature](#a-combined-temperature-analysis-for-temperature-and-apparent-temperature)
+    - [Scatter Plot for Bike Rentals Against Temperature and Apparent Temperature in Celsius](#b-scatter-plot-for-bike-rentals-against-temperature-and-apparent-temperature-in-celsius)
+
+## Section 3: Outlier Analysis
+1. [Boxplot for Bike Rental Count with Outliers](#1-boxplot-for-bike-rental-count-with-outliers)
+2. [Boxplots for Outliers in Temperature, Feel-like Temperature, Humidity, and Windspeed](#2-boxplots-for-outliers-in-temperature-feel-like-temperature-humidity-and-windspeed)
+3. [Outlier Replacement and Imputation](#3-outlier-replacement-and-imputation)
+    - [Replacing and Imputing Outliers in Humidity and Windspeed](#a-replacing-and-imputing-outliers-in-humidity-and-windspeed)
+    - [Impute Missing Values Using Mean Imputation Method](#b-impute-missing-values-using-mean-imputation-method)
+4. [Combining the Imputed Dataset and Original Dataset](#4-combining-the-imputed-dataset-and-original-dataset)
+5. [Explorating Numerical Column for Combined Dataset](#5-explorating-numerical-column-for-combined-dataset)
+6. [Correlation Analysis of Combined Dataset](#6-correlation-analysis-of-combined-dataset)
+
+## Section 4: Training and Testing Dataset
+1. [Splitting Dataset for Training and Testing](#1-splitting-dataset-for-training-and-testing)
+2. [Creating Subsets for Training and Testing Respectively](#2-creating-subsets-for-training-and-testing-respectively)
+
+## Section 5: Feature Engineering
+1. [Encoding Categorical Features for Training Dataset](#1-encoding-categorical-features-for-training-dataset)
+2. [Encoding Categorical Features (Test Dataset)](#2-encoding-categorical-features-test-dataset)
+
+## Section 6: Linear Regression Model
+1. [Modelling the Training Dataset for LRM](#1-modelling-the-training-dataset-for-lrm)
+2. [Cross Validation Prediction for LRM](#2-cross-validation-prediction-for-lrm)
+3. [Cross Validation Prediction Plot for LRM](#3-cross-validation-prediction-plot-for-lrm)
+4. [Model Performance on Test Dataset for LRM](#4-model-performance-on-test-dataset-for-lrm)
+5. [Prediction Analysis of Models on Test Dataset for LRM](#5-prediction-analysis-of-models-on-test-dataset-for-lrm)
+6. [Model Evaluation Metrics for LRM](#6-model-evaluation-metrics-for-lrm)
+7. [Residual Analysis for LRM](#7-residual-analysis-for-lrm)
+
+## Section 7: Decision Tree Regressor
+1. [Modelling the Training Dataset for DTR](#1-modelling-the-training-dataset-for-dtr)
+2. [Cross Validation Prediction for DTR](#2-cross-validation-prediction-for-dtr)
+3. [Cross Validation Prediction Plot for DTR](#3-cross-validation-prediction-plot-for-dtr)
+4. [Model Performance on Test Dataset for DTR](#4-model-performance-on-test-dataset-for-dtr)
+5. [Prediction Analysis of Models on Test Dataset for DTR](#5-prediction-analysis-of-models-on-test-dataset-for-dtr)
+6. [Model Evaluation Metrics for DTR](#6-model-evaluation-metrics-for-dtr)
+7. [Residual Analysis and Plot for DTR](#7-residual-analysis-and-plot-for-dtr)
+
+## Section 10: Random Forest Model
+1. [Modelling the Training Dataset for RFM](#1-modelling-the-training-dataset-for-rfm)
+2. [Cross Validation Prediction for RFM](#2-cross-validation-prediction-for-rfm)
+3. [Cross Validation Prediction Plot for RFM](#3-cross-validation-prediction-plot-for-rfm)
+4. [Model Performance on Test Dataset for RFM](#4-model-performance-on-test-dataset-for-rfm)
+5. [Prediction Analysis of Models on Test Dataset for RFM](#5-prediction-analysis-of-models-on-test-dataset-for-rfm)
+6. [Model Evaluation Metrics for RFM](#6-model-evaluation-metrics-for-rfm)
+7. [Residual Analysis and Plot for RFM](#7-residual-analysis-and-plot-for-rfm)
+
+## Section 11: Selecting Best Model in All Three for Further Prediction
+1. [Calculate RMSE and MAE for Each Model](#1-calculate-rmse-and-mae-for-each-model)
+2. [Analyzing Accuracy for Each Model](#2-analyzing-accuracy-for-each-model)
+3. [Selecting Best Model](#3-selecting-best-model)
+
+## Section 12: Selecting Final Model as Random Forest Regressor for Prediction of Bike Rental Count
+1. [Combine Observed and Predicted Values](#1-combine-observed-and-predicted-values)
+2. [Write Predictions to a CSV File](#2-write-predictions-to-a-csv-file)
+3. [Display the Predictions](#3-display-the-predictions)
+
+## Section 13: Conclusion
 
 ### Requirement to Run R Program:
 
