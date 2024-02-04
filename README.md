@@ -360,7 +360,7 @@ This project covers the following key areas:
 |----------------------------------------------------|
 | **1. Exploratory Data Analysis:**                  |
 |                                                    |
-|   [![green ✔](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Load the dataset and relevant libraries.    |
+|   [![✔](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Load the dataset and relevant libraries.    |
 |   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Perform data type conversion of the attributes. |
 |   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Conduct missing value analysis.             |
 |                                                    |
@@ -368,19 +368,19 @@ This project covers the following key areas:
 |                                                    |
 |   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot monthly distribution of the total number of bikes rented. |
 |   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot yearly distribution of the total number of bikes rented.  |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Plot boxplot for outliers' analysis.         |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot boxplot for outliers' analysis.         |
 |                                                    |
 | **3. Split the Dataset:**                          |
 |                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Split the dataset into train and test datasets. |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Split the dataset into train and test datasets. |
 |                                                    |
 | **4. Create a Model:**                             |
 |                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Create a model using the random forest algorithm. |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Create a model using the random forest algorithm. |
 |                                                    |
 | **5. Predictions:**                                |
 |                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Predict the performance of the model on the test dataset. |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Predict the performance of the model on the test dataset. |
 
 
 
@@ -394,7 +394,6 @@ This project is designed to:
 
 In essence, bike rental prediction serves as a powerful catalyst, empowering businesses to elevate customer experiences, optimize resource utilization, and enhance overall operational efficiency within the dynamic and competitive bike-sharing industry.
 
-Certainly! Here it is organized under a heading:
 
 ## About Technology Stack Used:
 
