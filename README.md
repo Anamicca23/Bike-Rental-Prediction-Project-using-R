@@ -356,31 +356,34 @@ This project covers the following key areas:
 </details>
 
 
-## ✔ Tasks Completed
+|    **✔ Tasks Completed**                           |
+|----------------------------------------------------|
+| **1. Exploratory Data Analysis:**                  |
+|                                                    |
+|   [![green ✔](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Load the dataset and relevant libraries.    |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Perform data type conversion of the attributes. |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Conduct missing value analysis.             |
+|                                                    |
+|**2. Attributes Distribution and Trends:**          |
+|                                                    |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot monthly distribution of the total number of bikes rented. |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot yearly distribution of the total number of bikes rented.  |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Plot boxplot for outliers' analysis.         |
+|                                                    |
+| **3. Split the Dataset:**                          |
+|                                                    |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Split the dataset into train and test datasets. |
+|                                                    |
+| **4. Create a Model:**                             |
+|                                                    |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Create a model using the random forest algorithm. |
+|                                                    |
+| **5. Predictions:**                                |
+|                                                    |
+|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)]() Predict the performance of the model on the test dataset. |
 
-### 1. Exploratory Data Analysis:
 
-- Load the dataset and relevant libraries.
-- Perform data type conversion of the attributes.
-- Conduct missing value analysis.
 
-### 2. Attributes Distribution and Trends:
-
-- Plot monthly distribution of the total number of bikes rented.
-- Plot yearly distribution of the total number of bikes rented.
-- Plot boxplot for outliers' analysis.
-
-### 3. Split the Dataset:
-
-Split the dataset into train and test datasets.
-
-### 4. Create a Model:
-
-Create a model using the random forest algorithm.
-
-### 5. Predictions:
-
-Predict the performance of the model on the test dataset.
 
 ## 🏆 Project Outcome:
 
