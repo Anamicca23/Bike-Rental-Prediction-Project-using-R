@@ -246,9 +246,10 @@ This project covers the following key areas:
 
 ## 📊 Key Components and Considerations in Bike Rental Prediction:
 
-### Dataset Description:
+# Dataset Description:
 
-#### Variables:
+<details>
+<summary><span style="color: blue;"><strong>Variables</strong></span></summary>
 
 | Variable    | Description                                               |
 |-------------|-----------------------------------------------------------|
@@ -259,20 +260,23 @@ This project covers the following key areas:
 | mnth        | Month (1 to 12)                                           |
 | holiday     | Weather day is a holiday or not                           |
 | weekday     | Day of the week                                           |
-| workingday  | Working day (1:neither weekend nor holiday, 0:other days) |
-| weathersit  | 1:Clear,few clouds, partly cloudy                         |
-|             | 2:Mist + cloudy,mist + broken clouds, mist + few clouds,mist|
-|             | 3:Light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds |
-|             | 4:Heavy rain + ice pallets                                |
-| temp        | Normalized temperature in celsius; The values are divided into 41(max) |
+| workingday  | Working day (1: neither weekend nor holiday, 0: other days) |
+| weathersit  | 1: Clear, few clouds, partly cloudy                       |
+|             | 2: Mist + cloudy, mist + broken clouds, mist + few clouds, mist |
+|             | 3: Light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds |
+|             | 4: Heavy rain + ice pallets                                |
+| temp        | Normalized temperature in Celsius; The values are divided into 41(max) |
 | atemp       | Normalized feeling temperature in Celsius; The values are divided into 50(max) |
 | hum         | Normalized humidity; The values are divided into 100(max) |
 | windspeed   | Normalized wind speed; The values are divided into 67(max) |
 | casual      | Count of casual users                                     |
 | registerd   | Count of registered users                                 |
-| cnt         | Count of total rental bikes including both casual and registered |
+| cnt         | Count of total rental bikes, including both casual and registered |
 
-### Data Collection:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>Data Collection</strong></span></summary>
 
 | Data Type                 | Description                                           |
 |---------------------------|-------------------------------------------------------|
@@ -280,15 +284,21 @@ This project covers the following key areas:
 | Weather Data              | Incorporates weather conditions such as temperature, precipitation, and wind speed, influencing bike rental demand. |
 | Time and Day Patterns     | Uncovering insights related to the time of day, day of the week, and seasonal fluctuations pivotal in predicting demand. |
 
-### Feature Engineering:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>Feature Engineering</strong></span></summary>
 
 | Feature Type              | Description                                           |
 |---------------------------|-------------------------------------------------------|
 | Time-Related Features     | Extraction of pertinent time-related features like the hour of the day and day of the week. |
 | Holidays and Events       | Ingeniously combining and preprocessing data to craft meaningful variables enhancing predictive prowess. |
-| Encoding Categorical Features |Encoding Categorical Features for Train Dataset and Test Dataset  | 
+| Encoding Categorical Features | Encoding Categorical Features for Train Dataset and Test Dataset  | 
 
-### Machine Learning Model:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>Machine Learning Model</strong></span></summary>
 
 | Algorithm Selection       | Description                                           |
 |---------------------------|-------------------------------------------------------|
@@ -296,8 +306,10 @@ This project covers the following key areas:
 | Decision Tree Model       | Methodically train the model with historical data to discern intricate patterns and relationships. |
 | Random Forest Model       | Utilize an ensemble of decision trees for improved accuracy and robustness. |
 
+</details>
 
-### Evaluation:
+<details>
+<summary><span style="color: #880000;"><strong>Evaluation</strong></span></summary>
 
 | Metrics                   | Description                                           |
 |---------------------------|-------------------------------------------------------|
@@ -305,14 +317,20 @@ This project covers the following key areas:
 | Root Mean Squared Error (RMSE) | A comprehensive evaluation metric that measures the average magnitude of the model's errors, giving higher weight to large errors. It provides a good understanding of the overall model performance. |
 | R-squared                 | A statistical measure that indicates the proportion of the variance in the dependent variable (bike rental count) that is predictable from the independent variables (features). It ranges from 0 to 1, with 1 indicating perfect prediction. |
 
-### Deployment:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>Deployment</strong></span></summary>
 
 | Integration               | Description                                           |
 |---------------------------|-------------------------------------------------------|
 | Real-time Predictions     | Seamless integration into the bike rental platform to furnish real-time predictions. |
 | Continuous Monitoring     | Recognizing the need for continuous monitoring and updates to ensure adaptability. |
 
-### Optimization:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>Optimization</strong></span></summary>
 
 | Utilization Strategies    | Description                                           |
 |---------------------------|-------------------------------------------------------|
@@ -320,11 +338,16 @@ This project covers the following key areas:
 | Pricing Strategies        | Fine-tuning pricing strategies based on predictions.   |
 | Promotional Campaigns     | Orchestrating campaigns based on anticipated demand.   |
 
-### User Interface:
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>User Interface</strong></span></summary>
 
 | Interface Design          | Description                                           |
 |---------------------------|-------------------------------------------------------|
 | User-Friendly Experience  | Crafting an intuitive interface to present predictions and insights to rental service providers. |
+
+</details>
 
 
 ## ✔ Tasks Completed
