@@ -160,54 +160,88 @@ This project covers the following key areas:
 </details>
 
 
-### Requirement to Run R Program:
+# Installation Requirements
 
-1. **R Version:**
-   - R version 4.0.0 or higher is recommended.
+<details>
+<summary><span style="color: #880000;"><strong>1. R Version</strong></span></summary>
 
-2. **Packages and Libraries:**
-   - Ensure that the following R packages are installed:
-      - readxl
-      - ggplot2
-      - tidyverse
-      - dplyr
-      - car
-      - explore
-      - lubridate
-      - DataExplorer
-      - GGally
-      - viridis
-      - ggridges
-      - Metrics
-      - MASS
-      - caret
-      - InformationValue
-      - randomForest
-      - corrplot
-      - corrgram
-      - DMwR2
-      - purrr
-      - rpart
-      - rpart.plot
-      - ranger
+- R version 4.3.1 or higher is recommended.
+- R version used to build project - (4.3.2).
 
-3. **Dataset:**
-   - The dataset used for bike rental prediction should be available in the specified path.
+</details>
 
-4. **System Compatibility:**
-   - The R program is designed to run on Windows, macOS, or Linux systems.
+<details>
+<summary><span style="color: #880000;"><strong>2. Packages and Libraries</strong></span></summary>
 
-5. **Hardware Requirements:**
-   - The program should be run on a system with sufficient memory and processing power for model training and evaluation.
+- Ensure that the following R packages are installed:
+  - readxl
+  - ggplot2
+  - tidyverse
+  - dplyr
+  - car
+  - explore
+  - lubridate
+  - DataExplorer
+  - GGally
+  - viridis
+  - ggridges
+  - Metrics
+  - MASS
+  - caret
+  - InformationValue
+  - randomForest
+  - corrplot
+  - corrgram
+  - DMwR2
+  - purrr
+  - rpart
+  - rpart.plot
+  - ranger
 
-6. **Running the Program:**
-   - Execute the R scripts in a compatible R environment (RStudio or command-line R) by following the provided structure in the project.
+</details>
 
-7. **Output:**
-   - The program generates various plots, analyses, and predictions, which are displayed in the R environment or saved in relevant files.
+<details>
+<summary><span style="color: #880000;"><strong>3. Dataset</strong></span></summary>
 
-8. **Additional Notes:**
-   - Refer to the comments and documentation within the R script files for detailed information on each section and step of the project.
+- The dataset used for bike rental prediction should be available in the specified path.
+
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>4. System Compatibility</strong></span></summary>
+
+- The R program is designed to run on Windows, macOS, or Linux systems.
+
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>5. Hardware Requirements</strong></span></summary>
+
+- The program should be run on a system with sufficient memory and processing power for model training and evaluation.
+
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>6. Running the Program</strong></span></summary>
+
+- Execute the R scripts in a compatible R environment (RStudio or command-line R) by following the provided structure in the project.
+
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>7. Output</strong></span></summary>
+
+- The program generates various plots, analyses, and predictions, which are displayed in the R environment or saved in relevant files.
+
+</details>
+
+<details>
+<summary><span style="color: #880000;"><strong>8. Additional Notes</strong></span></summary>
+
+- Refer to the comments and documentation within the R script files for detailed information on each section and step of the project.
+
+</details>
+
 
 
 ## 📊 Key Components and Considerations in Bike Rental Prediction:
