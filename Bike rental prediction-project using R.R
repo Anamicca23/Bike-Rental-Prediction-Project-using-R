@@ -2,24 +2,22 @@
 ###Bike Rental Prediction - Project###
 
 
-#Section: Loading packages and library to visualise dataset and performing ML Analysis.
-#Loading Important library 
-#We have to install all the packages listed inside of library function
-install.packages("ranger")
+# Section: Loading Packages and Libraries for Visualizing Dataset and Performing ML Analysis
+
+## Loading Important Libraries
+
+#Before proceeding, ensure to install all the packages listed inside the `library()` function.
+# Install ranger package if not already installed
+# install.packages("ranger")
+
 # ggplot2: A powerful and flexible plotting system for creating visualizations in R.
 library(ggplot2)
 
 # tidyverse: A collection of packages (including ggplot2) that provide a consistent and efficient data manipulation workflow.
 library(tidyverse)
 
-# car: Companion to Applied Regression package, providing additional regression diagnostics and plotting functions.
-library(car)
-
 # explore: A package for exploratory data analysis, offering various visualizations and summary statistics.
 library(explore)
-
-# DataExplorer: Simplifies exploratory data analysis by generating interactive and informative data summaries.
-library(DataExplorer)
 
 # GGally: Extension to ggplot2, designed for creating ggplot2 visualizations with multiple plots.
 library(GGally)
@@ -30,26 +28,41 @@ library(ggridges)
 # Metrics: Provides various metrics for evaluating machine learning models, including RMSE and MAE.
 library(Metrics)
 
-# MASS: Functions and datasets for Venables and Ripley's MASS.
-library(MASS)
+# car: Companion to Applied Regression package, offering various regression-related functions.
+library(car)
 
-# AUC: Computes the area under the curve (AUC) for ROC analysis.
-library(AUC)
+# corrgram: Package for creating correlograms to visualize correlation matrices.
+library(corrgram)
+
+# corrplot: Package for creating correlation plots.
+library(corrplot)
 
 # caret: Classification and Regression Training package, a comprehensive framework for building predictive models.
 library(caret)
 
-# InformationValue: Calculates information value for predictive modeling, useful in feature selection.
-library(InformationValue)
-
 # randomForest: Implements random forest algorithms for classification and regression.
 library(randomForest)
+
+# ranger: Another implementation of random forest algorithms for faster performance.
+library(ranger)
+
+# DMwR2: Data Mining with R, provides functions and data sets for teaching data mining.
+library(DMwR2)
 
 # ipred: Improved Predictors package, provides bagging and bootstrapping algorithms for predictive modeling.
 library(ipred)
 
 # caTools: Provides various tools for data splitting and manipulation, often used in predictive modeling.
 library(caTools)
+
+# viridis: A colorblind-friendly color palette for data visualizations.
+library(viridis)
+
+# lubridate: Simplifies date and time handling in R.
+library(lubridate)
+
+# readxl: Package for reading Excel files.
+library(readxl)
 
 
 #Section: Adding File into R Programe
@@ -99,6 +112,8 @@ paste("Dimension of dataset: ", dim(bike_df))
 names(bike_df)<-c('record_id','datetime','season','year','month','holiday','weekday','workingday','weather_condition','temp','atemp','humidity','windspeed','casual_users','registerd_users','count')
 
 head(bike_df)
+
+#Section : Descriptive Analysis
 
 # Summary of the dataset using the summary() function to get a quick overview of key statistics.
 summary(bike_df)
@@ -395,7 +410,7 @@ ggplot(bike_df, aes(x = season, y = count, fill = as.factor(season))) +
   annotate("text", x = 2, y = 7000, label = "Median", color = "red", size = 4) +
   annotate("text", x = 3, y = 7000, label = "Median", color = "red", size = 4) +
   annotate("text", x = 4, y = 7000, label = "Median", color = "red", size = 4) +
-  geom_hline(yintercept = median(bike_df$count), linetype = "dashed", color = "red", size = 1.2)
+  geom_hline(yintercept = median(bike_df$count), linetype = "dashed", color = "red", linewidth = 1.2)
 
 # Section: Violin Plot for Yearly Distribution of Counts
 library(ggplot2)
@@ -798,7 +813,8 @@ set.seed(2626)
 
 # Identify categorical variables
 vars <- setdiff(colnames(train), c(train$count, othervars))
-
+vars
+                                                                   
 # Create a formula for encoding
 f <- paste('~', paste(vars, collapse = ' + '))
 
@@ -824,7 +840,8 @@ set.seed(5662)
 
 # Identify categorical variables in the test dataset
 vars <- setdiff(colnames(test), c(test$count, othervars))
-
+vars
+                                                                   
 # Create a formula for encoding
 f <- paste('~', paste(vars, collapse = ' + '))
 
@@ -957,10 +974,11 @@ cat("Residual Analysis:\n")
 
 # Calculate residuals
 y_test <- test_encoded_attributes$count
-residuals <- y_test - lm_predictions
-
+residuals_lm <- y_test - lm_predictions
+residuals_lm
+                                                                   
 # Create an informative residual plot
-plot(y_test, residuals, xlab = 'Observed Count', ylab = 'Residuals', main = 'Residual Plot',
+plot(y_test, residuals_lm, xlab = 'Observed Count', ylab = 'Residuals', main = 'Residual Plot',
      col = ifelse(residuals >= 0, 'blue', 'red'), pch = 16, cex = 1.2)
 
 # Add a reference line at y = 0
@@ -1063,10 +1081,11 @@ predicted_counts <- as.numeric(dtr_CV_predict$pred)
 
 # Calculate residuals
 observed_counts <- as.numeric(train_encoded_attributes$count)
-residuals <- observed_counts - predicted_counts
+residuals_dr <- resid(dtr_CV_predict)
+residuals_dr
 
 # Cross-validation prediction plot
-plot(observed_counts, residuals, 
+plot(observed_counts, residuals_dr, 
      xlab = 'Observed Counts', ylab = 'Residuals',
      main = 'Cross Validation Residual Plot', col = plot_colors[1], pch = 16)
 
@@ -1144,10 +1163,10 @@ print(mae)
 # Section: Residual Plot for Decision Tree Regressor
 
 # Calculate residuals for Decision Tree Regressor predictions
-residuals <- y_test - dtr_predict
+residuals_dtr <- y_test - dtr_predictions
 
 # Plot the Residual plot
-plot(y_test, residuals, xlab = 'Observed', ylab = 'Residuals', main = 'Residual Plot for Decision Tree Regressor', col = 'blue', pch = 16)
+plot(y_test, residuals_dtr, xlab = 'Observed', ylab = 'Residuals', main = 'Residual Plot for Decision Tree Regressor', col = 'blue', pch = 16)
 abline(0, 0, col = 'red', lwd = 2)
 
 # Add informative text
