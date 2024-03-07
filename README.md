@@ -512,7 +512,36 @@ Follow these steps to set up the bike rental prediction project on your local ma
 7. **Additional Notes:**
    - Read the comments and documentation within the R script files for detailed information on each section and step of the project.
 
+
+## Outcome and Analysis:
+
+1. **Prediction of Linear Regression Model, Decision Tree and Random forest Model:
+
+   
+**Prediction done by Linear Regression Model:**
+![Prediction using Root-Mean Square](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/cd39026f-3489-4d39-b978-1b94800d7f26)
+
+**Prediction done by Decision Tree Model:**
+![prediction using decision tree forest](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/ecbeabde-7d39-4bfc-bffe-78733c34182f)
+
+**Prediction done by Random Forest Model:**
+![Prediction using random Forest regressor](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/bfae504c-32c0-4d0b-a7a2-9580ead1bb0f)
+
+
+2. **Accuracy of all the three Model:**
+
+   
+![Accuracy table for diffrent model](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/83df41a0-ebbf-4d07-9716-5ae757ff301d)
+
+
+3. **Best Model out of all three for Bike-Rental Prediction:**
+
+![Best Model out of all three](https://github.com/Anamicca23/Bike-Rental-Prediction/assets/99593529/3dcf0d26-78fa-48d5-94ef-2ddec3f26756)
+
+
+4. **Result:**
+  - Lower values of RMSE and MAE indicate better model performance. Here, the Random Forest Regressor model shows the best performance among the three models evaluated.
+  - When comparing RMSE and MAE of all 3 models, the random forest model shows the least errors. Thus, the random forest model is considered the best for predicting daily bike rental counts.
+
+    
 Enjoy exploring and predicting bike rentals with the R program!
-
-
-
