@@ -1,4 +1,4 @@
-# [Bike Rental Prediction](https://nbviewer.org/github/Anamicca23/Bike-Rental-Prediction/blob/master/Bike_Renta_Prediction_using_R.ipynb)
+# [Bike Rental Prediction - Project using R](https://nbviewer.org/github/Anamicca23/Bike-Rental-Prediction/blob/master/Bike_Renta_Prediction_using_R.ipynb)
 
 *Bike rental prediction* at its core represents an advanced application of predictive analytics and machine learning, employing a robust **Random Forest model** to forecast bicycle rental demand with unparalleled precision. This sophisticated model goes beyond traditional approaches by meticulously analyzing an array of factors, including seasonal patterns, weather conditions, and temporal trends, to provide nuanced insights into user behavior and rental dynamics.
 
