@@ -1,3 +1,31 @@
+<h1 align="center">🚴‍♀️ Bike Rental Prediction Project (R)</h1>
+
+<p align="center">
+  <em>📈 Predicting daily bike rental counts using Random Forest with powerful insights and 90.99% accuracy</em>
+</p>
+
+<p align="center">
+  <img alt="R Version" src="https://img.shields.io/badge/R-4.3.1-blue?style=for-the-badge&logo=r" />
+  <img alt="Accuracy" src="https://img.shields.io/badge/accuracy-90.99%25-brightgreen?style=for-the-badge" />
+  <img alt="Model" src="https://img.shields.io/badge/model-Random%20Forest-orange?style=for-the-badge" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Anamicca23/bike-rental-prediction?label=Last%20Updated&style=for-the-badge" />
+</p>
+
+
+
+<p align="center">🛠️ Built With tool and technologies:</p>
+
+<p align="center">
+  <img alt="R" src="https://img.shields.io/badge/R-4.3.1-blue?style=for-the-badge&logo=r" />
+  <img alt="ggplot2" src="https://img.shields.io/badge/ggplot2-data%20viz-orange?style=for-the-badge&logo=ggplot" />
+  <img alt="dplyr" src="https://img.shields.io/badge/dplyr-data%20wrangling-purple?style=for-the-badge&logo=rstudio" />
+  <img alt="randomForest" src="https://img.shields.io/badge/randomForest-ML%20Model-green?style=for-the-badge" />
+  <img alt="caret" src="https://img.shields.io/badge/caret-model%20training-yellow?style=for-the-badge" />
+  <img alt="RStudio" src="https://img.shields.io/badge/RStudio-IDE-blue?style=for-the-badge&logo=rstudio" />
+</p>
+
+---
+
 # [Bike Rental Prediction - Project using R](https://nbviewer.org/github/Anamicca23/Bike-Rental-Prediction-Project-using-R/blob/master/Bike_Renta_Prediction_using_R.ipynb)
 
 *Bike rental prediction* at its core represents an advanced application of predictive analytics and machine learning, employing a robust **Random Forest model** to forecast bicycle rental demand with unparalleled precision. This sophisticated model goes beyond traditional approaches by meticulously analyzing an array of factors, including seasonal patterns, weather conditions, and temporal trends, to provide nuanced insights into user behavior and rental dynamics.
@@ -545,3 +573,11 @@ Follow these steps to set up the bike rental prediction project on your local ma
 
     
 Enjoy exploring and predicting bike rentals with the R program!
+
+<p align="center">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/⬅️%20Return-blue?style=for-the-badge" alt="Return Button"/>
+  </a>
+</p>
+
+
