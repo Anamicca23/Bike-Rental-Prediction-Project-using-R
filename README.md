@@ -441,35 +441,21 @@ bike-rental-prediction/
 ```
 
 ---
+# 🚴‍♂️ Bike Rental Prediction Project – ✅ Task Tracker 
 
-|    **✔ Tasks Completed**                           |
-|----------------------------------------------------|
-| **1. Exploratory Data Analysis:**                  |
-|                                                    |
-|   [![✔](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Load the dataset and relevant libraries.    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Perform data type conversion of the attributes. |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Conduct missing value analysis.             |
-|                                                    |
-|**2. Attributes Distribution and Trends:**          |
-|                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot monthly distribution of the total number of bikes rented. |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot yearly distribution of the total number of bikes rented.  |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Plot boxplot for outliers' analysis.         |
-|                                                    |
-| **3. Split the Dataset:**                          |
-|                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Split the dataset into train and test datasets. |
-|                                                    |
-| **4. Create a Model:**                             |
-|                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Create a model using the random forest algorithm. |
-|                                                    |
-| **5. Predictions:**                                |
-|                                                    |
-|   [![green tick](https://via.placeholder.com/15/00FF00/000000?text=+)](✔) Predict the performance of the model on the test dataset. |
+| 🗂️ **Section**                       | 📝 **Task**                                             | 🎯 **Description**                                | ✅ **Completed** |
+|-------------------------------------|---------------------------------------------------------|---------------------------------------------------|:----------------:|
+| 🔍 **Exploratory Data Analysis**    |  Load dataset & libraries                            | Import data and required Python libraries         | ☑️               |
+|                                     |  Data type conversion                                | Convert columns to appropriate formats            | ☑️               |
+|                                     |  Missing value analysis                              | Identify and handle null or missing data          | ☑️               |
+| 📊 **Distribution & Trends**        |  Monthly distribution plot                           | Analyze rentals by month                          | ☑️               |
+|                                     |  Yearly distribution plot                            | Analyze rentals by year                           | ☑️               |
+|                                     |  Boxplot for outliers                                | Visualize anomalies and data spread               | ☑️               |
+| ✂️ **Dataset Splitting**            |  Train-test split                                    | Divide data for training and evaluation           | ☑️               |
+| 🧠 **Model Creation**               |  Random Forest model                                 | Train a Random Forest regression model            | ☑️               |
+| 📈 **Predictions**                  |  Predict on test data                                | Generate and evaluate predictions                 | ☑️               |
 
-
-
+---
 
 ## 🏆 Project Outcome:
 
