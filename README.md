@@ -386,6 +386,59 @@ This project covers the following key areas:
 
 </details>
 
+## Project structure:
+
+```
+bike-rental-prediction/
+├── 📁 data/
+│   └── 1657875746_day.xlsx                # Original bike rental dataset
+│
+├── 📁 images/
+│   ├── 📊 Actual vs Predicted Values (Random forest Regressor).jpeg
+│   ├── 📉 Bike Rentals on Holidays.jpeg
+│   ├── 🌡️ Bike Rentals vs. Temperature and Apparent Temperature.jpeg
+│   ├── 📦 Boxplot and Histogram for Rentals on Holidays.jpeg
+│   ├── 🧪 Boxplot for Rental Count with Outliers.jpeg
+│   ├── 🧊 Outliers in Temperature, Humidity, Windspeed.jpeg
+│   ├── 📈 Correlation Analysis in Dataset.jpeg
+│   ├── 🧬 Corrgram plot for all variables.png
+│   ├── 📐 Cross Validation (Random Forest).jpeg
+│   ├── 📐 Cross Validation (Linear Regression).jpeg
+│   ├── 🌳 Decision tree model.jpeg
+│   ├── 📊 Distribution of Bike Rentals (Count).png
+│   ├── 📊 Distribution of Bike Rentals.png
+│   ├── 🌦️ Impact of Weather Conditions.jpeg
+│   ├── 🔍 Log Transformation of Bike Rentals.png
+│   ├── 📉 Model Performance - Linear Regressor.jpeg
+│   ├── 🔎 Pairplot of Numerical Variables.png
+│   ├── 🔄 Correlation Variable Plot.png
+│   ├── 🧾 Residual Analysis - LRM.jpeg
+│   ├── 🧾 Residual Plot - Decision Tree.jpeg
+│   ├── 🧾 Residual Plot - Random Forest.jpeg
+│   ├── 🎻 Violin Plot - Yearly Count Distribution.png
+│   ├── 🧮 Actual vs Predicted - Decision Tree.jpeg
+│   ├── 📅 Seasonal Boxplot.png
+│   ├── 🌡️ Correlation Heatmap.png
+│   ├── 📐 Normal Probability Plots.jpeg
+│   ├── 📊 Season-wise Distribution.png
+│   ├── 📅 Weekday-wise Distribution.png
+│
+├── 📁 notebooks/
+│   └── Bike_Renta_Prediction_using_R.ipynb  # Notebook version of the project
+│
+├── 📁 scripts/
+│   └── Bike rental prediction-project using R.R  # R script
+│
+├── 📁 reports/
+│   └── 1657876240_project_2_bike_rental_prediction.pdf  # Project report
+│
+├── 📁 output/
+│   └── Final Output of predicted count or bike rental.csv
+│
+└── 📄 README.md
+```
+
+---
 
 |    **✔ Tasks Completed**                           |
 |----------------------------------------------------|
